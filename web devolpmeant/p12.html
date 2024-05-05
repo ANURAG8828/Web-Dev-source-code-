@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        *{
+            margin: 0%;padding: 0%;
+        
+        }
+.box{
+    background-color: rgb(32, 34, 184);
+   
+}
+.box1{
+    color: rgb(223, 144, 25); margin: 5px;
+    padding: 15px;
+    border: 2px solid black;
+    height: 100px;
+box-sizing: border-box;
+/* box sizing kam karta hai jab ham height ya width dete hai to ye porra le leta hai but jab box sizing krte hai to sab ek ssaath calculate hotahai */
+}
+.box2{
+    color: yellow;
+    margin: 5px;
+    padding: 15px;
+    border: 2px solid rgb(65, 1, 1);
+    height: 20px;
+    box-sizing: border-box;
+}
+    </style>
+</head>
+
+<body>
+<div class="box box1">box1</div>
+<div class="box box2">box2</div>
+</body>
+
+</html>

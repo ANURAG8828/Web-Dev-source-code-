@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selctors</title>
+    <style>
+        /* element selector */
+        div{
+            background-color: violet;
+        }
+        /* class selector */
+        .red {
+            background-color: yellow;
+        }
+        /* id selector */
+        #green{
+            background-color: blue;
+        }
+        /* child selector */
+div >p{
+    background-color: brown;
+    color: tomato;
+}
+/* descendent selector div ke andarv p hona chahiye chahe chahe footrer me ho header me ho article me ho */
+div p{
+    background-color: brown;
+    color: tomato;
+}
+/* universal selector */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* pseudo selectors */
+ a:visited{
+    color: aqua;
+}
+a:link{
+    color: rgb(160, 29, 221);
+}
+a:active{
+    background-color: rgb(235, 18, 29);
+}
+a:hover{
+    background-color:yellow;
+}
+/* read more about psedodo classes */
+</style>
+</head>
+
+<body>
+    <div class="red">
+        h iam div
+    </div>
+    <div>
+        iam second div
+        <p>i a child of para</p>
+    </div>
+    <div id="green"> h iam another div </div>
+    <a href="https://www.youtube.com">go to youtube</a>
+    <a href="https://www.playstore.com">go to p</a>
+
+
+</body>
+
+</html>
